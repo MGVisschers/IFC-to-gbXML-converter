@@ -1,0 +1,4873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gbXML areaUnit="SquareMeters" lengthUnit="Meters" temperatureUnit="C" useSIUnitsForResults="true" version="0.37" volumeUnit="CubicMeters" xmlns="http://www.gbxml.org/schema">
+	<Campus id="campus0LofJkI2P8HgKgqvDeJ8mR">
+		<Location>
+			<Longitude>5</Longitude>
+			<Latitude>51</Latitude>
+			<Elevation>0.0</Elevation>
+			<ZipcodeOrPostalCode></ZipcodeOrPostalCode>
+			<Name>Eindhoven, Netherlands</Name>
+		</Location>
+		<Building buildingType="Unknown" id="building0LofJkI2P8HgKgqvDeJ8mO">
+			<StreetAddress>Eindhoven, Netherlands</StreetAddress>
+			<BuildingStorey id="storey0LofJkI2P8HgKgqvENitBU">
+				<Name>Storey_1</Name>
+				<Level>0.0</Level>
+			</BuildingStorey>
+			<BuildingStorey id="storey0LofJkI2P8HgKgqvENit5V">
+				<Name>Storey_2</Name>
+				<Level>3000.0</Level>
+			</BuildingStorey>
+			<BuildingStorey id="storey0LofJkI2P8HgKgqvENjyig">
+				<Name>Storey_3</Name>
+				<Level>6000.0</Level>
+			</BuildingStorey>
+			<BuildingStorey id="storey0LofJkI2P8HgKgqvENjyfK">
+				<Name>Storey_4</Name>
+				<Level>9000.0</Level>
+			</BuildingStorey>
+			<Space buildingStoreyIdRef="storey0LofJkI2P8HgKgqvENitBU" id="space3ZLWHMkzv0OhV2Qjo2Khaw">
+				<Area>12.2024655</Area>
+				<Volume>31.7264103</Volume>
+				<Name>Space_1</Name>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0TMYEqvyf1FwF88pCVE5b9">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id36wZ5u9eH4pu2eHBvIBqMr">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3UX7tgIZHD4un1yTfSPB6Q">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0xoUI74nv6MhCjZYNRHBl">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0gvcizxj2LAHSn1O_O0eH">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1n7c4hIXCPBe797TQ8mhc">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+			</Space>
+			<Space buildingStoreyIdRef="storey0LofJkI2P8HgKgqvENitBU" id="space3ZLWHMkzv0OhV2Qjo2Khav">
+				<Area>14.02854525</Area>
+				<Volume>36.47421765</Volume>
+				<Name>Space_2</Name>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0AueQlF_jB8h90AuMwAaA2">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id2ju1rMfZb0uftr2aGZ7xTL">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1vp0HvMGD4xe43_3SbELC">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id32OzzTWUn1vPfT0GJDZy_Z">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id2Ycsid2fzCUf6IUixgw2_y">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id10CWHR6_X8HQn3u6rjQymI">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+			</Space>
+			<Space buildingStoreyIdRef="storey0LofJkI2P8HgKgqvENitBU" id="space3ZLWHMkzv0OhV2Qjo2Khb3">
+				<Area>14.02854525</Area>
+				<Volume>36.47421765</Volume>
+				<Name>Space_3</Name>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1bhZtf62L2jRLAySxKQr9z">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id2i5_9Xyz18IeauFyLqVFLP">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1TlsrOtVD1XwUKjsFCEcmQ">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1Rp2lqVWr0Q8eEPVHpV0wT">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0EyePyhDD26QNaHIhQiIIn">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>9.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id2I3I8USbX1YPd0IF21rfyE">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+			</Space>
+			<Space buildingStoreyIdRef="storey0LofJkI2P8HgKgqvENitBU" id="space3ZLWHMkzv0OhV2Qjo2Khb4">
+				<Area>12.2024655</Area>
+				<Volume>31.7264103</Volume>
+				<Name>Space_4</Name>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3oMxLBVKL889U1xl52cXtT">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3sDo7n2nbAvRTCGNFz8qt7">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1g3pxUgAn8jOcZSWlGkKiM">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3C_p3CH7D5Ph6zP1cybJY">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1GOKsjBc9FlQRaGg6OZXyn">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3UCdG9k6X6jgB9_kTpO1pN">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+			</Space>
+			<Space buildingStoreyIdRef="storey0LofJkI2P8HgKgqvENitBU" id="space3ZLWHMkzv0OhV2Qjo2KhbE">
+				<Area>11.01217</Area>
+				<Volume>28.631642</Volume>
+				<Name>Space_5</Name>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3O36CMDWn1teFPf5tu6wGn">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3ePb1k8j5xRxGvPhTfkIi">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id2kzyLcUrXF2Pdn4Lit4oWV">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3I5G5KJhr3bOy_CkQuk1nF">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1BVJkijd570vZzzi2Akiy">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1wYmi6pNT46uPl18KxKyXX">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3_j9GVOub49hWAaql4wUNS">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>2.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0Rl7uJMIb5ffRjWHFjMC8z">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+			</Space>
+			<Space buildingStoreyIdRef="storey0LofJkI2P8HgKgqvENit5V" id="space3ZLWHMkzv0OhV2Qjo2Khb8">
+				<Area>12.2024655</Area>
+				<Volume>31.7264103</Volume>
+				<Name>Space_6</Name>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3AbJ8gaor8JO3I15aBf1KE">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3SgeU_dTn9VhKfPZ40jvF">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0ASk1ylnF2RoEirzfBGO">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id2H5e55ij0m98JvwgOH9Wl">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3axbcO6jAXvs7JmhLr9jJ">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3tfSml2hr7PQRkDQKWgeh3">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+			</Space>
+			<Space buildingStoreyIdRef="storey0LofJkI2P8HgKgqvENit5V" id="space3ZLWHMkzv0OhV2Qjo2KhbN">
+				<Area>12.2024655</Area>
+				<Volume>31.7264103</Volume>
+				<Name>Space_7</Name>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1NK49et91AhRpB50lm4xV">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id12Nr5oIYXFq95Kagn0BXEy">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id16vrmDvlD3I8u6T7qMWynj">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3ShWrAl3bCN8yX2FLNHvT4">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id11d1_9eibDxAThGP0vrCri">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id2W9fffNtj7sAkHLQhu1h5_">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+			</Space>
+			<Space buildingStoreyIdRef="storey0LofJkI2P8HgKgqvENit5V" id="space3ZLWHMkzv0OhV2Qjo2KhbI">
+				<Area>9.9905</Area>
+				<Volume>25.9753</Volume>
+				<Name>Space_8</Name>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0mO64OF_T8mh3zfTEr7GHa">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id2byIXN0CT3dwnFr2F4pG8">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0igVlxoIbD2uLYDKKukOy">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1kpo7PNBb4rw9gkQPsX2Kl">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0_hD2PkzDAKxoMA8x3Ws89">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1NpRU5Aiz19RgV6Ti1JC3n">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>5.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1csnZ3UcbBlRf7cDX3qu">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>3.0</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+			</Space>
+			<Space buildingStoreyIdRef="storey0LofJkI2P8HgKgqvENjyig" id="space3ZLWHMkzv0OhV2Qjo2KhbS">
+				<Area>12.2024655</Area>
+				<Volume>31.7264103</Volume>
+				<Name>Space_9</Name>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id2iAyC5Ssf4DRWiTwY7GA7u">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id2_XMDc2Ar3g954g2YOsRO4">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id2haXInVuj6L8X5hmKaH_Fj">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0soJrFFGT23h_vJeDTh2Fr">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3LAAHTA5v7geNqgnE3sqI5">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id2XJL2P2u9FFedxr60D8cIa">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+			</Space>
+			<Space buildingStoreyIdRef="storey0LofJkI2P8HgKgqvENjyig" id="space3ZLWHMkzv0OhV2Qjo2KhbR">
+				<Area>12.2024655</Area>
+				<Volume>31.7264103</Volume>
+				<Name>Space_10</Name>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1rm7ebPpzCY95WaPSTh8ib">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3zNiqn2HfD8hvyxXVmtyTO">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0K37IYXnbAGANN9f1L8cuZ">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1FsOj_dTjE4fLz1WyO_7oy">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3Fgbnid4r2VgGXHrmEXkHX">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1DRxM6b2L5kAKlBa1yV1n">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+			</Space>
+			<Space buildingStoreyIdRef="storey0LofJkI2P8HgKgqvENjyig" id="space3ZLWHMkzv0OhV2Qjo2Khbc">
+				<Area>9.9905</Area>
+				<Volume>25.9753</Volume>
+				<Name>Space_11</Name>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id3wLIGKqxbCfhDSSu28gR0d">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1CItwG0HEDBoYOILrHfbX">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>4.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0Y6yJMN2T78P4_hmD7LCts">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id0kCI4rXKP9PB7cwqrba_s7">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id14CE22flT2mv0Yqss6lbey">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1zOJSZcPXFVAiQSfVDDCxi">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>8.657</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+				<SpaceBoundary isSecondLevelBoundary="true" surfaceIdRef="id1H2Ue8xEv8uhSQbBeMeE1d">
+					<PlanarGeometry>
+						<PolyLoop>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>3.4855</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>0.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+							<CartesianPoint>
+								<Coordinate>5.025</Coordinate>
+								<Coordinate>8.0</Coordinate>
+								<Coordinate>6.0</Coordinate>
+							</CartesianPoint>
+						</PolyLoop>
+					</PlanarGeometry>
+				</SpaceBoundary>
+			</Space>
+		</Building>
+		<Surface constructionIdRef="construct3bcXCLq2H48eTjakp9RUD" id="id0TMYEqvyf1FwF88pCVE5b9" surfaceType="ExteriorWall">
+			<Name>object0TMYEqvyf1FwF88pCVE5b9</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khaw"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0TMYEqvyf1FwF88pCVE5b9</CADObjectId>
+			<Opening id="Opening1" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZ_7">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>5.47475</Coordinate>
+							<Coordinate>2.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>5.47475</Coordinate>
+							<Coordinate>0.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>6.38975</Coordinate>
+							<Coordinate>0.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>6.38975</Coordinate>
+							<Coordinate>2.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0915x1220mm312781</Name>
+				<CADObjectId>objectM_Fixed0915x1220mm312781</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct0tmZxT8gn7L8WhXc0QNLgc" id="id36wZ5u9eH4pu2eHBvIBqMr" surfaceType="ExteriorWall">
+			<Name>object36wZ5u9eH4pu2eHBvIBqMr</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khaw"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object36wZ5u9eH4pu2eHBvIBqMr</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2TkmMpSw5FTAES_NQ_S0ZA" id="id3UX7tgIZHD4un1yTfSPB6Q" surfaceType="Ceiling">
+			<Name>object3UX7tgIZHD4un1yTfSPB6Q</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khaw"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3UX7tgIZHD4un1yTfSPB6Q</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2UXLsjOSL5pREM9gBkUr2Y" id="id0xoUI74nv6MhCjZYNRHBl" surfaceType="InteriorFloor">
+			<Name>object0xoUI74nv6MhCjZYNRHBl</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khaw"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0xoUI74nv6MhCjZYNRHBl</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct1b2G81F1vAvwgNOXkH3E4N" id="id0gvcizxj2LAHSn1O_O0eH" surfaceType="InteriorWall">
+			<Name>object0gvcizxj2LAHSn1O_O0eH</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khaw"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0gvcizxj2LAHSn1O_O0eH</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2810tX1YrFuQmCvL7r_Iks" id="id1n7c4hIXCPBe797TQ8mhc" surfaceType="InteriorWall">
+			<Name>object1n7c4hIXCPBe797TQ8mhc</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khaw"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1n7c4hIXCPBe797TQ8mhc</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2TIpHvhPfDLvVSyuTp6Xef" id="id0AueQlF_jB8h90AuMwAaA2" surfaceType="ExteriorWall">
+			<Name>object0AueQlF_jB8h90AuMwAaA2</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khav"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0AueQlF_jB8h90AuMwAaA2</CADObjectId>
+			<Opening id="Opening2" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZm8">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>9.0</Coordinate>
+							<Coordinate>6.38975</Coordinate>
+							<Coordinate>0.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>9.0</Coordinate>
+							<Coordinate>5.47475</Coordinate>
+							<Coordinate>0.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>9.0</Coordinate>
+							<Coordinate>5.47475</Coordinate>
+							<Coordinate>2.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>9.0</Coordinate>
+							<Coordinate>6.38975</Coordinate>
+							<Coordinate>2.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0915x1220mm312898</Name>
+				<CADObjectId>objectM_Fixed0915x1220mm312898</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct1XVXK5RD90OgBqv8PhZOcu" id="id2ju1rMfZb0uftr2aGZ7xTL" surfaceType="ExteriorWall">
+			<Name>object2ju1rMfZb0uftr2aGZ7xTL</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khav"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object2ju1rMfZb0uftr2aGZ7xTL</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2OAbv7hhD8age1Ub8mq86x" id="id1vp0HvMGD4xe43_3SbELC" surfaceType="Ceiling">
+			<Name>object1vp0HvMGD4xe43_3SbELC</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khav"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1vp0HvMGD4xe43_3SbELC</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2UXLsjOSL5pREM9gBkUr2Y" id="id32OzzTWUn1vPfT0GJDZy_Z" surfaceType="InteriorFloor">
+			<Name>object32OzzTWUn1vPfT0GJDZy_Z</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khav"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object32OzzTWUn1vPfT0GJDZy_Z</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct0WAWCgFOv9DgJFMxbV_5fU" id="id2Ycsid2fzCUf6IUixgw2_y" surfaceType="InteriorWall">
+			<Name>object2Ycsid2fzCUf6IUixgw2_y</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khav"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object2Ycsid2fzCUf6IUixgw2_y</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct010R1vUf6fhNidzn26wem" id="id10CWHR6_X8HQn3u6rjQymI" surfaceType="InteriorWall">
+			<Name>object10CWHR6_X8HQn3u6rjQymI</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khav"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object10CWHR6_X8HQn3u6rjQymI</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct0WAWCgFOv9DgJFMxbV_5fU" id="id1bhZtf62L2jRLAySxKQr9z" surfaceType="InteriorWall">
+			<Name>object1bhZtf62L2jRLAySxKQr9z</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb3"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1bhZtf62L2jRLAySxKQr9z</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2TIpHvhPfDLvVSyuTp6Xef" id="id2i5_9Xyz18IeauFyLqVFLP" surfaceType="ExteriorWall">
+			<Name>object2i5_9Xyz18IeauFyLqVFLP</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb3"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object2i5_9Xyz18IeauFyLqVFLP</CADObjectId>
+			<Opening id="Opening3" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZmu">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>9.0</Coordinate>
+							<Coordinate>2.52525</Coordinate>
+							<Coordinate>0.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>9.0</Coordinate>
+							<Coordinate>1.61025</Coordinate>
+							<Coordinate>0.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>9.0</Coordinate>
+							<Coordinate>1.61025</Coordinate>
+							<Coordinate>2.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>9.0</Coordinate>
+							<Coordinate>2.52525</Coordinate>
+							<Coordinate>2.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0915x1220mm312946</Name>
+				<CADObjectId>objectM_Fixed0915x1220mm312946</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct0a3gvxAf6vh7bjxxZjmBM" id="id1TlsrOtVD1XwUKjsFCEcmQ" surfaceType="ExteriorWall">
+			<Name>object1TlsrOtVD1XwUKjsFCEcmQ</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb3"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1TlsrOtVD1XwUKjsFCEcmQ</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2oiD6y3d50z8ehPeKWwCmr" id="id1Rp2lqVWr0Q8eEPVHpV0wT" surfaceType="Ceiling">
+			<Name>object1Rp2lqVWr0Q8eEPVHpV0wT</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb3"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1Rp2lqVWr0Q8eEPVHpV0wT</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2UXLsjOSL5pREM9gBkUr2Y" id="id0EyePyhDD26QNaHIhQiIIn" surfaceType="InteriorFloor">
+			<Name>object0EyePyhDD26QNaHIhQiIIn</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb3"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>9.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0EyePyhDD26QNaHIhQiIIn</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct010R1vUf6fhNidzn26wem" id="id2I3I8USbX1YPd0IF21rfyE" surfaceType="InteriorWall">
+			<Name>object2I3I8USbX1YPd0IF21rfyE</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb3"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object2I3I8USbX1YPd0IF21rfyE</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct1b2G81F1vAvwgNOXkH3E4N" id="id3oMxLBVKL889U1xl52cXtT" surfaceType="InteriorWall">
+			<Name>object3oMxLBVKL889U1xl52cXtT</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb4"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3oMxLBVKL889U1xl52cXtT</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct3bcXCLq2H48eTjakp9RUD" id="id3sDo7n2nbAvRTCGNFz8qt7" surfaceType="ExteriorWall">
+			<Name>object3sDo7n2nbAvRTCGNFz8qt7</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb4"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3sDo7n2nbAvRTCGNFz8qt7</CADObjectId>
+			<Opening id="Opening4" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZ_o">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>1.61025</Coordinate>
+							<Coordinate>2.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>1.61025</Coordinate>
+							<Coordinate>0.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>2.52525</Coordinate>
+							<Coordinate>0.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>2.52525</Coordinate>
+							<Coordinate>2.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0915x1220mm312824</Name>
+				<CADObjectId>objectM_Fixed0915x1220mm312824</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct0b0rPikcv22gUwMuO0YjtD" id="id1g3pxUgAn8jOcZSWlGkKiM" surfaceType="ExteriorWall">
+			<Name>object1g3pxUgAn8jOcZSWlGkKiM</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb4"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1g3pxUgAn8jOcZSWlGkKiM</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct3MTU713ojCGva5lfb84sTj" id="id3C_p3CH7D5Ph6zP1cybJY" surfaceType="Ceiling">
+			<Name>object3C_p3CH7D5Ph6zP1cybJY</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb4"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3C_p3CH7D5Ph6zP1cybJY</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2UXLsjOSL5pREM9gBkUr2Y" id="id1GOKsjBc9FlQRaGg6OZXyn" surfaceType="InteriorFloor">
+			<Name>object1GOKsjBc9FlQRaGg6OZXyn</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb4"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1GOKsjBc9FlQRaGg6OZXyn</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2810tX1YrFuQmCvL7r_Iks" id="id3UCdG9k6X6jgB9_kTpO1pN" surfaceType="InteriorWall">
+			<Name>object3UCdG9k6X6jgB9_kTpO1pN</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb4"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3UCdG9k6X6jgB9_kTpO1pN</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2810tX1YrFuQmCvL7r_Iks" id="id3O36CMDWn1teFPf5tu6wGn" surfaceType="InteriorWall">
+			<Name>object3O36CMDWn1teFPf5tu6wGn</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbE"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3O36CMDWn1teFPf5tu6wGn</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct010R1vUf6fhNidzn26wem" id="id3ePb1k8j5xRxGvPhTfkIi" surfaceType="InteriorWall">
+			<Name>object3ePb1k8j5xRxGvPhTfkIi</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbE"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3ePb1k8j5xRxGvPhTfkIi</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct010R1vUf6fhNidzn26wem" id="id2kzyLcUrXF2Pdn4Lit4oWV" surfaceType="InteriorWall">
+			<Name>object2kzyLcUrXF2Pdn4Lit4oWV</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbE"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object2kzyLcUrXF2Pdn4Lit4oWV</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2810tX1YrFuQmCvL7r_Iks" id="id3I5G5KJhr3bOy_CkQuk1nF" surfaceType="InteriorWall">
+			<Name>object3I5G5KJhr3bOy_CkQuk1nF</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbE"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3I5G5KJhr3bOy_CkQuk1nF</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct0tmZxT8gn7L8WhXc0QNLgc" id="id1BVJkijd570vZzzi2Akiy" surfaceType="ExteriorWall">
+			<Name>object1BVJkijd570vZzzi2Akiy</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbE"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1BVJkijd570vZzzi2Akiy</CADObjectId>
+			<Opening id="Opening5" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZR">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>3.9845</Coordinate>
+							<Coordinate>8.0</Coordinate>
+							<Coordinate>2.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>3.9845</Coordinate>
+							<Coordinate>8.0</Coordinate>
+							<Coordinate>0.305</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>4.3905</Coordinate>
+							<Coordinate>8.0</Coordinate>
+							<Coordinate>0.305</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>4.3905</Coordinate>
+							<Coordinate>8.0</Coordinate>
+							<Coordinate>2.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0406x1830mm312721</Name>
+				<CADObjectId>objectM_Fixed0406x1830mm312721</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct0b0rPikcv22gUwMuO0YjtD" id="id1wYmi6pNT46uPl18KxKyXX" surfaceType="ExteriorWall">
+			<Name>object1wYmi6pNT46uPl18KxKyXX</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbE"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1wYmi6pNT46uPl18KxKyXX</CADObjectId>
+			<Opening id="Opening6" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZy4">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>4.3905</Coordinate>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>0.305</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>3.9845</Coordinate>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>0.305</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>3.9845</Coordinate>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>2.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>4.3905</Coordinate>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>2.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0406x1830mm312654</Name>
+				<CADObjectId>objectM_Fixed0406x1830mm312654</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct2OwYfiqSL5Z8o7W9DIyI70" id="id3_j9GVOub49hWAaql4wUNS" surfaceType="Ceiling">
+			<Name>object3_j9GVOub49hWAaql4wUNS</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbE"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>2.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3_j9GVOub49hWAaql4wUNS</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2UXLsjOSL5pREM9gBkUr2Y" id="id0Rl7uJMIb5ffRjWHFjMC8z" surfaceType="InteriorFloor">
+			<Name>object0Rl7uJMIb5ffRjWHFjMC8z</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbE"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0Rl7uJMIb5ffRjWHFjMC8z</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct3bcXCLq2H48eTjakp9RUD" id="id3AbJ8gaor8JO3I15aBf1KE" surfaceType="ExteriorWall">
+			<Name>object3AbJ8gaor8JO3I15aBf1KE</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb8"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3AbJ8gaor8JO3I15aBf1KE</CADObjectId>
+			<Opening id="Opening7" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZpk">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>5.47475</Coordinate>
+							<Coordinate>5.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>5.47475</Coordinate>
+							<Coordinate>3.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>6.38975</Coordinate>
+							<Coordinate>3.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>6.38975</Coordinate>
+							<Coordinate>5.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0915x1220mm312996</Name>
+				<CADObjectId>objectM_Fixed0915x1220mm312996</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct0tmZxT8gn7L8WhXc0QNLgc" id="id3SgeU_dTn9VhKfPZ40jvF" surfaceType="ExteriorWall">
+			<Name>object3SgeU_dTn9VhKfPZ40jvF</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb8"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3SgeU_dTn9VhKfPZ40jvF</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct0iFTEE8Lz3ghsbMpJffrTr" id="id0ASk1ylnF2RoEirzfBGO" surfaceType="Ceiling">
+			<Name>object0ASk1ylnF2RoEirzfBGO</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb8"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0ASk1ylnF2RoEirzfBGO</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct0mYkN26bz7HvNx5TuV4Zal" id="id2H5e55ij0m98JvwgOH9Wl" surfaceType="InteriorFloor">
+			<Name>object2H5e55ij0m98JvwgOH9Wl</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb8"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object2H5e55ij0m98JvwgOH9Wl</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct0GWVJhXvb9299O2XS70QNE" id="id3axbcO6jAXvs7JmhLr9jJ" surfaceType="InteriorWall">
+			<Name>object3axbcO6jAXvs7JmhLr9jJ</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb8"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3axbcO6jAXvs7JmhLr9jJ</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct1ddD9JNEr74xnz_Q9x_j8" id="id3tfSml2hr7PQRkDQKWgeh3" surfaceType="InteriorWall">
+			<Name>object3tfSml2hr7PQRkDQKWgeh3</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khb8"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3tfSml2hr7PQRkDQKWgeh3</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct0GWVJhXvb9299O2XS70QNE" id="id1NK49et91AhRpB50lm4xV" surfaceType="InteriorWall">
+			<Name>object1NK49et91AhRpB50lm4xV</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbN"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1NK49et91AhRpB50lm4xV</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct3bcXCLq2H48eTjakp9RUD" id="id12Nr5oIYXFq95Kagn0BXEy" surfaceType="ExteriorWall">
+			<Name>object12Nr5oIYXFq95Kagn0BXEy</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbN"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object12Nr5oIYXFq95Kagn0BXEy</CADObjectId>
+			<Opening id="Opening8" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZoQ">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>1.61025</Coordinate>
+							<Coordinate>5.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>1.61025</Coordinate>
+							<Coordinate>3.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>2.52525</Coordinate>
+							<Coordinate>3.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>2.52525</Coordinate>
+							<Coordinate>5.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0915x1220mm313040</Name>
+				<CADObjectId>objectM_Fixed0915x1220mm313040</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct0b0rPikcv22gUwMuO0YjtD" id="id16vrmDvlD3I8u6T7qMWynj" surfaceType="ExteriorWall">
+			<Name>object16vrmDvlD3I8u6T7qMWynj</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbN"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object16vrmDvlD3I8u6T7qMWynj</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct0lY8VoJ_nD5BqCgat9AE4i" id="id3ShWrAl3bCN8yX2FLNHvT4" surfaceType="Ceiling">
+			<Name>object3ShWrAl3bCN8yX2FLNHvT4</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbN"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3ShWrAl3bCN8yX2FLNHvT4</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct0mYkN26bz7HvNx5TuV4Zal" id="id11d1_9eibDxAThGP0vrCri" surfaceType="InteriorFloor">
+			<Name>object11d1_9eibDxAThGP0vrCri</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbN"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object11d1_9eibDxAThGP0vrCri</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct1ddD9JNEr74xnz_Q9x_j8" id="id2W9fffNtj7sAkHLQhu1h5_" surfaceType="InteriorWall">
+			<Name>object2W9fffNtj7sAkHLQhu1h5_</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbN"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object2W9fffNtj7sAkHLQhu1h5_</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct1ddD9JNEr74xnz_Q9x_j8" id="id0mO64OF_T8mh3zfTEr7GHa" surfaceType="InteriorWall">
+			<Name>object0mO64OF_T8mh3zfTEr7GHa</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbI"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0mO64OF_T8mh3zfTEr7GHa</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct1ddD9JNEr74xnz_Q9x_j8" id="id2byIXN0CT3dwnFr2F4pG8" surfaceType="InteriorWall">
+			<Name>object2byIXN0CT3dwnFr2F4pG8</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbI"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object2byIXN0CT3dwnFr2F4pG8</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct0tmZxT8gn7L8WhXc0QNLgc" id="id0igVlxoIbD2uLYDKKukOy" surfaceType="ExteriorWall">
+			<Name>object0igVlxoIbD2uLYDKKukOy</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbI"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0igVlxoIbD2uLYDKKukOy</CADObjectId>
+			<Opening id="Opening9" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZtU">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>3.9845</Coordinate>
+							<Coordinate>8.0</Coordinate>
+							<Coordinate>5.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>3.9845</Coordinate>
+							<Coordinate>8.0</Coordinate>
+							<Coordinate>3.305</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>4.3905</Coordinate>
+							<Coordinate>8.0</Coordinate>
+							<Coordinate>3.305</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>4.3905</Coordinate>
+							<Coordinate>8.0</Coordinate>
+							<Coordinate>5.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0406x1830mm313236</Name>
+				<CADObjectId>objectM_Fixed0406x1830mm313236</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct0b0rPikcv22gUwMuO0YjtD" id="id1kpo7PNBb4rw9gkQPsX2Kl" surfaceType="ExteriorWall">
+			<Name>object1kpo7PNBb4rw9gkQPsX2Kl</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbI"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1kpo7PNBb4rw9gkQPsX2Kl</CADObjectId>
+			<Opening id="Opening10" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZsC">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>4.3905</Coordinate>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>3.305</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>3.9845</Coordinate>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>3.305</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>3.9845</Coordinate>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>5.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>4.3905</Coordinate>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>5.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0406x1830mm313286</Name>
+				<CADObjectId>objectM_Fixed0406x1830mm313286</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct0D2d5YfL63OJTf85X925s" id="id0_hD2PkzDAKxoMA8x3Ws89" surfaceType="ExteriorWall">
+			<Name>object0_hD2PkzDAKxoMA8x3Ws89</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbI"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0_hD2PkzDAKxoMA8x3Ws89</CADObjectId>
+			<Opening id="Opening11" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZsc">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>5.025</Coordinate>
+							<Coordinate>4.4575</Coordinate>
+							<Coordinate>3.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>5.025</Coordinate>
+							<Coordinate>3.5425</Coordinate>
+							<Coordinate>3.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>5.025</Coordinate>
+							<Coordinate>3.5425</Coordinate>
+							<Coordinate>4.525</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>5.025</Coordinate>
+							<Coordinate>4.4575</Coordinate>
+							<Coordinate>4.525</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0915x0610mm313324</Name>
+				<CADObjectId>objectM_Fixed0915x0610mm313324</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct3dG8FGH1b85hkizQLthL7Y" id="id1NpRU5Aiz19RgV6Ti1JC3n" surfaceType="Ceiling">
+			<Name>object1NpRU5Aiz19RgV6Ti1JC3n</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbI"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>5.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1NpRU5Aiz19RgV6Ti1JC3n</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct0mYkN26bz7HvNx5TuV4Zal" id="id1csnZ3UcbBlRf7cDX3qu" surfaceType="InteriorFloor">
+			<Name>object1csnZ3UcbBlRf7cDX3qu</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbI"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>3.0</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1csnZ3UcbBlRf7cDX3qu</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct3bcXCLq2H48eTjakp9RUD" id="id2iAyC5Ssf4DRWiTwY7GA7u" surfaceType="ExteriorWall">
+			<Name>object2iAyC5Ssf4DRWiTwY7GA7u</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbS"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object2iAyC5Ssf4DRWiTwY7GA7u</CADObjectId>
+			<Opening id="Opening12" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZDT">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>5.47475</Coordinate>
+							<Coordinate>8.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>5.47475</Coordinate>
+							<Coordinate>6.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>6.38975</Coordinate>
+							<Coordinate>6.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>6.38975</Coordinate>
+							<Coordinate>8.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0915x1220mm313623</Name>
+				<CADObjectId>objectM_Fixed0915x1220mm313623</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct0tmZxT8gn7L8WhXc0QNLgc" id="id2_XMDc2Ar3g954g2YOsRO4" surfaceType="ExteriorWall">
+			<Name>object2_XMDc2Ar3g954g2YOsRO4</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbS"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object2_XMDc2Ar3g954g2YOsRO4</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct3cbbQeayTD3u_YxOOVtl9" id="id2haXInVuj6L8X5hmKaH_Fj" surfaceType="Ceiling">
+			<Name>object2haXInVuj6L8X5hmKaH_Fj</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbS"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object2haXInVuj6L8X5hmKaH_Fj</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2c67iokyL9XfZvUs3yh3Ek" id="id0soJrFFGT23h_vJeDTh2Fr" surfaceType="InteriorFloor">
+			<Name>object0soJrFFGT23h_vJeDTh2Fr</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbS"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0soJrFFGT23h_vJeDTh2Fr</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct1PcSGJY5vDuxI6K7By_NVa" id="id3LAAHTA5v7geNqgnE3sqI5" surfaceType="InteriorWall">
+			<Name>object3LAAHTA5v7geNqgnE3sqI5</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbS"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3LAAHTA5v7geNqgnE3sqI5</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct3zxVLjOo5FE9tGEb603fc" id="id2XJL2P2u9FFedxr60D8cIa" surfaceType="InteriorWall">
+			<Name>object2XJL2P2u9FFedxr60D8cIa</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbS"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object2XJL2P2u9FFedxr60D8cIa</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct1PcSGJY5vDuxI6K7By_NVa" id="id1rm7ebPpzCY95WaPSTh8ib" surfaceType="InteriorWall">
+			<Name>object1rm7ebPpzCY95WaPSTh8ib</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbR"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1rm7ebPpzCY95WaPSTh8ib</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct3bcXCLq2H48eTjakp9RUD" id="id3zNiqn2HfD8hvyxXVmtyTO" surfaceType="ExteriorWall">
+			<Name>object3zNiqn2HfD8hvyxXVmtyTO</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbR"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3zNiqn2HfD8hvyxXVmtyTO</CADObjectId>
+			<Opening id="Opening13" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZCr">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>1.61025</Coordinate>
+							<Coordinate>8.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>1.61025</Coordinate>
+							<Coordinate>6.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>2.52525</Coordinate>
+							<Coordinate>6.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>2.52525</Coordinate>
+							<Coordinate>8.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0915x1220mm313727</Name>
+				<CADObjectId>objectM_Fixed0915x1220mm313727</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct0b0rPikcv22gUwMuO0YjtD" id="id0K37IYXnbAGANN9f1L8cuZ" surfaceType="ExteriorWall">
+			<Name>object0K37IYXnbAGANN9f1L8cuZ</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbR"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0K37IYXnbAGANN9f1L8cuZ</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct0Or89xTtT1_An_H72PxR7_" id="id1FsOj_dTjE4fLz1WyO_7oy" surfaceType="Ceiling">
+			<Name>object1FsOj_dTjE4fLz1WyO_7oy</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbR"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1FsOj_dTjE4fLz1WyO_7oy</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2c67iokyL9XfZvUs3yh3Ek" id="id3Fgbnid4r2VgGXHrmEXkHX" surfaceType="InteriorFloor">
+			<Name>object3Fgbnid4r2VgGXHrmEXkHX</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbR"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3Fgbnid4r2VgGXHrmEXkHX</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct3zxVLjOo5FE9tGEb603fc" id="id1DRxM6b2L5kAKlBa1yV1n" surfaceType="InteriorWall">
+			<Name>object1DRxM6b2L5kAKlBa1yV1n</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2KhbR"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1DRxM6b2L5kAKlBa1yV1n</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct3zxVLjOo5FE9tGEb603fc" id="id3wLIGKqxbCfhDSSu28gR0d" surfaceType="InteriorWall">
+			<Name>object3wLIGKqxbCfhDSSu28gR0d</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khbc"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object3wLIGKqxbCfhDSSu28gR0d</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct3zxVLjOo5FE9tGEb603fc" id="id1CItwG0HEDBoYOILrHfbX" surfaceType="InteriorWall">
+			<Name>object1CItwG0HEDBoYOILrHfbX</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khbc"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>4.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1CItwG0HEDBoYOILrHfbX</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct0tmZxT8gn7L8WhXc0QNLgc" id="id0Y6yJMN2T78P4_hmD7LCts" surfaceType="ExteriorWall">
+			<Name>object0Y6yJMN2T78P4_hmD7LCts</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khbc"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0Y6yJMN2T78P4_hmD7LCts</CADObjectId>
+			<Opening id="Opening14" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZB9">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>3.9845</Coordinate>
+							<Coordinate>8.0</Coordinate>
+							<Coordinate>8.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>3.9845</Coordinate>
+							<Coordinate>8.0</Coordinate>
+							<Coordinate>6.305</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>4.3905</Coordinate>
+							<Coordinate>8.0</Coordinate>
+							<Coordinate>6.305</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>4.3905</Coordinate>
+							<Coordinate>8.0</Coordinate>
+							<Coordinate>8.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0406x1830mm313475</Name>
+				<CADObjectId>objectM_Fixed0406x1830mm313475</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct0b0rPikcv22gUwMuO0YjtD" id="id0kCI4rXKP9PB7cwqrba_s7" surfaceType="ExteriorWall">
+			<Name>object0kCI4rXKP9PB7cwqrba_s7</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khbc"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object0kCI4rXKP9PB7cwqrba_s7</CADObjectId>
+			<Opening id="Opening15" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZBb">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>4.3905</Coordinate>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>6.305</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>3.9845</Coordinate>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>6.305</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>3.9845</Coordinate>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>8.135</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>4.3905</Coordinate>
+							<Coordinate>0.0</Coordinate>
+							<Coordinate>8.135</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0406x1830mm313519</Name>
+				<CADObjectId>objectM_Fixed0406x1830mm313519</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct0D2d5YfL63OJTf85X925s" id="id14CE22flT2mv0Yqss6lbey" surfaceType="ExteriorWall">
+			<Name>object14CE22flT2mv0Yqss6lbey</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khbc"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object14CE22flT2mv0Yqss6lbey</CADObjectId>
+			<Opening id="Opening16" openingType="OperableWindow" windowTypeIdRef="id07c5qqauj4NvjDxpBniZ89">
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>5.025</Coordinate>
+							<Coordinate>4.4575</Coordinate>
+							<Coordinate>6.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>5.025</Coordinate>
+							<Coordinate>3.5425</Coordinate>
+							<Coordinate>6.915</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>5.025</Coordinate>
+							<Coordinate>3.5425</Coordinate>
+							<Coordinate>7.525</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>5.025</Coordinate>
+							<Coordinate>4.4575</Coordinate>
+							<Coordinate>7.525</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+				<Name>objectM_Fixed0915x0610mm313411</Name>
+				<CADObjectId>objectM_Fixed0915x0610mm313411</CADObjectId>
+			</Opening>
+		</Surface>
+		<Surface constructionIdRef="construct15SO9rOUD7jB_5UKAnhGpN" id="id1zOJSZcPXFVAiQSfVDDCxi" surfaceType="Ceiling">
+			<Name>object1zOJSZcPXFVAiQSfVDDCxi</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khbc"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>8.657</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1zOJSZcPXFVAiQSfVDDCxi</CADObjectId>
+		</Surface>
+		<Surface constructionIdRef="construct2c67iokyL9XfZvUs3yh3Ek" id="id1H2Ue8xEv8uhSQbBeMeE1d" surfaceType="InteriorFloor">
+			<Name>object1H2Ue8xEv8uhSQbBeMeE1d</Name>
+			<AdjacentSpaceId spaceIdRef="space3ZLWHMkzv0OhV2Qjo2Khbc"/>
+			<PlanarGeometry>
+				<PolyLoop>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>3.4855</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>0.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+					<CartesianPoint>
+						<Coordinate>5.025</Coordinate>
+						<Coordinate>8.0</Coordinate>
+						<Coordinate>6.0</Coordinate>
+					</CartesianPoint>
+				</PolyLoop>
+			</PlanarGeometry>
+			<CADObjectId>object1H2Ue8xEv8uhSQbBeMeE1d</CADObjectId>
+		</Surface>
+	</Campus>
+	<WindowType id="id07c5qqauj4NvjDxpBniZy4">
+		<Name>objectM_Fixed0406x1830mm312654</Name>
+		<Description>objectM_Fixed0406x1830mm312654</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZR">
+		<Name>objectM_Fixed0406x1830mm312721</Name>
+		<Description>objectM_Fixed0406x1830mm312721</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZ_7">
+		<Name>objectM_Fixed0915x1220mm312781</Name>
+		<Description>objectM_Fixed0915x1220mm312781</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZ_o">
+		<Name>objectM_Fixed0915x1220mm312824</Name>
+		<Description>objectM_Fixed0915x1220mm312824</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZm8">
+		<Name>objectM_Fixed0915x1220mm312898</Name>
+		<Description>objectM_Fixed0915x1220mm312898</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZmu">
+		<Name>objectM_Fixed0915x1220mm312946</Name>
+		<Description>objectM_Fixed0915x1220mm312946</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZpk">
+		<Name>objectM_Fixed0915x1220mm312996</Name>
+		<Description>objectM_Fixed0915x1220mm312996</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZoQ">
+		<Name>objectM_Fixed0915x1220mm313040</Name>
+		<Description>objectM_Fixed0915x1220mm313040</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZtU">
+		<Name>objectM_Fixed0406x1830mm313236</Name>
+		<Description>objectM_Fixed0406x1830mm313236</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZsC">
+		<Name>objectM_Fixed0406x1830mm313286</Name>
+		<Description>objectM_Fixed0406x1830mm313286</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZsc">
+		<Name>objectM_Fixed0915x0610mm313324</Name>
+		<Description>objectM_Fixed0915x0610mm313324</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZ89">
+		<Name>objectM_Fixed0915x0610mm313411</Name>
+		<Description>objectM_Fixed0915x0610mm313411</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZB9">
+		<Name>objectM_Fixed0406x1830mm313475</Name>
+		<Description>objectM_Fixed0406x1830mm313475</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZBb">
+		<Name>objectM_Fixed0406x1830mm313519</Name>
+		<Description>objectM_Fixed0406x1830mm313519</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZDT">
+		<Name>objectM_Fixed0915x1220mm313623</Name>
+		<Description>objectM_Fixed0915x1220mm313623</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<WindowType id="id07c5qqauj4NvjDxpBniZCr">
+		<Name>objectM_Fixed0915x1220mm313727</Name>
+		<Description>objectM_Fixed0915x1220mm313727</Description>
+		<U-value unit="WPerSquareMeterK">3.6886</U-value>
+		<SolarHeatGainCoeff unit="Fraction">0.78</SolarHeatGainCoeff>
+		<Transmittance type="Visible" unit="Fraction">0.9</Transmittance>
+	</WindowType>
+	<Construction id="construct3bcXCLq2H48eTjakp9RUD">
+		<U-value unit="WPerSquareMeterK">0.105419490008</U-value>
+		<LayerId layerIdRef="lyr3bcXCLq2H48eTjakp9RUD"/>
+		<Name>Basic Wall:Exterior - Brick on Mtl. Stud</Name>
+	</Construction>
+	<Construction id="construct0tmZxT8gn7L8WhXc0QNLgc">
+		<U-value unit="WPerSquareMeterK">0.105562160638</U-value>
+		<LayerId layerIdRef="lyr0tmZxT8gn7L8WhXc0QNLgc"/>
+		<Name>Basic Wall:Exterior - Block on Mtl. Stud</Name>
+	</Construction>
+	<Construction id="construct2TkmMpSw5FTAES_NQ_S0ZA">
+		<U-value unit="WPerSquareMeterK">0.549915397631</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr2TkmMpSw5FTAES_NQ_S0ZA"/>
+		<Name>Compound Ceiling:Plain</Name>
+	</Construction>
+	<Construction id="construct2UXLsjOSL5pREM9gBkUr2Y">
+		<U-value unit="WPerSquareMeterK">4.40479183427</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr2UXLsjOSL5pREM9gBkUr2Y"/>
+		<Name>Floor:Concrete-Commercial 362mm</Name>
+	</Construction>
+	<Construction id="construct1b2G81F1vAvwgNOXkH3E4N">
+		<U-value unit="WPerSquareMeterK">0.575730735164</U-value>
+		<LayerId layerIdRef="lyr1b2G81F1vAvwgNOXkH3E4N"/>
+		<Name>Basic Wall:Interior - 79mm Partition (1-hr)</Name>
+	</Construction>
+	<Construction id="construct2810tX1YrFuQmCvL7r_Iks">
+		<U-value unit="WPerSquareMeterK">0.575730735164</U-value>
+		<LayerId layerIdRef="lyr2810tX1YrFuQmCvL7r_Iks"/>
+		<Name>Basic Wall:Interior - 79mm Partition (1-hr)</Name>
+	</Construction>
+	<Construction id="construct2TIpHvhPfDLvVSyuTp6Xef">
+		<U-value unit="WPerSquareMeterK">0.105419490008</U-value>
+		<LayerId layerIdRef="lyr2TIpHvhPfDLvVSyuTp6Xef"/>
+		<Name>Basic Wall:Exterior - Brick on Mtl. Stud</Name>
+	</Construction>
+	<Construction id="construct1XVXK5RD90OgBqv8PhZOcu">
+		<U-value unit="WPerSquareMeterK">0.105562160638</U-value>
+		<LayerId layerIdRef="lyr1XVXK5RD90OgBqv8PhZOcu"/>
+		<Name>Basic Wall:Exterior - Block on Mtl. Stud</Name>
+	</Construction>
+	<Construction id="construct2OAbv7hhD8age1Ub8mq86x">
+		<U-value unit="WPerSquareMeterK">0.549915397631</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr2OAbv7hhD8age1Ub8mq86x"/>
+		<Name>Compound Ceiling:Plain</Name>
+	</Construction>
+	<Construction id="construct0WAWCgFOv9DgJFMxbV_5fU">
+		<U-value unit="WPerSquareMeterK">0.575730735164</U-value>
+		<LayerId layerIdRef="lyr0WAWCgFOv9DgJFMxbV_5fU"/>
+		<Name>Basic Wall:Interior - 79mm Partition (1-hr)</Name>
+	</Construction>
+	<Construction id="construct010R1vUf6fhNidzn26wem">
+		<U-value unit="WPerSquareMeterK">0.575730735164</U-value>
+		<LayerId layerIdRef="lyr010R1vUf6fhNidzn26wem"/>
+		<Name>Basic Wall:Interior - 79mm Partition (1-hr)</Name>
+	</Construction>
+	<Construction id="construct0a3gvxAf6vh7bjxxZjmBM">
+		<U-value unit="WPerSquareMeterK">0.105562160638</U-value>
+		<LayerId layerIdRef="lyr0a3gvxAf6vh7bjxxZjmBM"/>
+		<Name>Basic Wall:Exterior - Block on Mtl. Stud</Name>
+	</Construction>
+	<Construction id="construct2oiD6y3d50z8ehPeKWwCmr">
+		<U-value unit="WPerSquareMeterK">0.549915397631</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr2oiD6y3d50z8ehPeKWwCmr"/>
+		<Name>Compound Ceiling:Plain</Name>
+	</Construction>
+	<Construction id="construct0b0rPikcv22gUwMuO0YjtD">
+		<U-value unit="WPerSquareMeterK">0.105562160638</U-value>
+		<LayerId layerIdRef="lyr0b0rPikcv22gUwMuO0YjtD"/>
+		<Name>Basic Wall:Exterior - Block on Mtl. Stud</Name>
+	</Construction>
+	<Construction id="construct3MTU713ojCGva5lfb84sTj">
+		<U-value unit="WPerSquareMeterK">0.549915397631</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr3MTU713ojCGva5lfb84sTj"/>
+		<Name>Compound Ceiling:Plain</Name>
+	</Construction>
+	<Construction id="construct2OwYfiqSL5Z8o7W9DIyI70">
+		<U-value unit="WPerSquareMeterK">0.549915397631</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr2OwYfiqSL5Z8o7W9DIyI70"/>
+		<Name>Compound Ceiling:Plain</Name>
+	</Construction>
+	<Construction id="construct0iFTEE8Lz3ghsbMpJffrTr">
+		<U-value unit="WPerSquareMeterK">0.549915397631</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr0iFTEE8Lz3ghsbMpJffrTr"/>
+		<Name>Compound Ceiling:Plain</Name>
+	</Construction>
+	<Construction id="construct0mYkN26bz7HvNx5TuV4Zal">
+		<U-value unit="WPerSquareMeterK">4.40479183427</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr0mYkN26bz7HvNx5TuV4Zal"/>
+		<Name>Floor:Concrete-Commercial 362mm</Name>
+	</Construction>
+	<Construction id="construct0GWVJhXvb9299O2XS70QNE">
+		<U-value unit="WPerSquareMeterK">0.575730735164</U-value>
+		<LayerId layerIdRef="lyr0GWVJhXvb9299O2XS70QNE"/>
+		<Name>Basic Wall:Interior - 79mm Partition (1-hr)</Name>
+	</Construction>
+	<Construction id="construct1ddD9JNEr74xnz_Q9x_j8">
+		<U-value unit="WPerSquareMeterK">0.575730735164</U-value>
+		<LayerId layerIdRef="lyr1ddD9JNEr74xnz_Q9x_j8"/>
+		<Name>Basic Wall:Interior - 79mm Partition (1-hr)</Name>
+	</Construction>
+	<Construction id="construct0lY8VoJ_nD5BqCgat9AE4i">
+		<U-value unit="WPerSquareMeterK">0.549915397631</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr0lY8VoJ_nD5BqCgat9AE4i"/>
+		<Name>Compound Ceiling:Plain</Name>
+	</Construction>
+	<Construction id="construct0D2d5YfL63OJTf85X925s">
+		<U-value unit="WPerSquareMeterK">0.105419490008</U-value>
+		<LayerId layerIdRef="lyr0D2d5YfL63OJTf85X925s"/>
+		<Name>Basic Wall:Exterior - Brick on Mtl. Stud</Name>
+	</Construction>
+	<Construction id="construct3dG8FGH1b85hkizQLthL7Y">
+		<U-value unit="WPerSquareMeterK">0.549915397631</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr3dG8FGH1b85hkizQLthL7Y"/>
+		<Name>Compound Ceiling:Plain</Name>
+	</Construction>
+	<Construction id="construct3cbbQeayTD3u_YxOOVtl9">
+		<U-value unit="WPerSquareMeterK">0.549915397631</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr3cbbQeayTD3u_YxOOVtl9"/>
+		<Name>Compound Ceiling:Plain</Name>
+	</Construction>
+	<Construction id="construct2c67iokyL9XfZvUs3yh3Ek">
+		<U-value unit="WPerSquareMeterK">4.40479183427</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr2c67iokyL9XfZvUs3yh3Ek"/>
+		<Name>Floor:Concrete-Commercial 362mm</Name>
+	</Construction>
+	<Construction id="construct1PcSGJY5vDuxI6K7By_NVa">
+		<U-value unit="WPerSquareMeterK">0.575730735164</U-value>
+		<LayerId layerIdRef="lyr1PcSGJY5vDuxI6K7By_NVa"/>
+		<Name>Basic Wall:Interior - 79mm Partition (1-hr)</Name>
+	</Construction>
+	<Construction id="construct3zxVLjOo5FE9tGEb603fc">
+		<U-value unit="WPerSquareMeterK">0.575730735164</U-value>
+		<LayerId layerIdRef="lyr3zxVLjOo5FE9tGEb603fc"/>
+		<Name>Basic Wall:Interior - 79mm Partition (1-hr)</Name>
+	</Construction>
+	<Construction id="construct0Or89xTtT1_An_H72PxR7_">
+		<U-value unit="WPerSquareMeterK">0.549915397631</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr0Or89xTtT1_An_H72PxR7_"/>
+		<Name>Compound Ceiling:Plain</Name>
+	</Construction>
+	<Construction id="construct15SO9rOUD7jB_5UKAnhGpN">
+		<U-value unit="WPerSquareMeterK">0.549915397631</U-value>
+		<Absorptance type="ExtIR" unit="Fraction">0.7</Absorptance>
+		<LayerId layerIdRef="lyr15SO9rOUD7jB_5UKAnhGpN"/>
+		<Name>Compound Ceiling:Plain</Name>
+	</Construction>
+	<Layer id="lyr3bcXCLq2H48eTjakp9RUD">
+		<MaterialId materialIdRef="mat_2595"/>
+		<MaterialId materialIdRef="mat_2608"/>
+		<MaterialId materialIdRef="mat_2622"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr0tmZxT8gn7L8WhXc0QNLgc">
+		<MaterialId materialIdRef="mat_2861"/>
+		<MaterialId materialIdRef="mat_2608"/>
+		<MaterialId materialIdRef="mat_2622"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr2TIpHvhPfDLvVSyuTp6Xef">
+		<MaterialId materialIdRef="mat_2595"/>
+		<MaterialId materialIdRef="mat_2608"/>
+		<MaterialId materialIdRef="mat_2622"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr0b0rPikcv22gUwMuO0YjtD">
+		<MaterialId materialIdRef="mat_2861"/>
+		<MaterialId materialIdRef="mat_2608"/>
+		<MaterialId materialIdRef="mat_2622"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr2UXLsjOSL5pREM9gBkUr2Y">
+		<MaterialId materialIdRef="mat_3171"/>
+		<MaterialId materialIdRef="mat_3185"/>
+		<MaterialId materialIdRef="mat_3199"/>
+	</Layer>
+	<Layer id="lyr0D2d5YfL63OJTf85X925s">
+		<MaterialId materialIdRef="mat_2595"/>
+		<MaterialId materialIdRef="mat_2608"/>
+		<MaterialId materialIdRef="mat_2622"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr1XVXK5RD90OgBqv8PhZOcu">
+		<MaterialId materialIdRef="mat_2861"/>
+		<MaterialId materialIdRef="mat_2608"/>
+		<MaterialId materialIdRef="mat_2622"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr0a3gvxAf6vh7bjxxZjmBM">
+		<MaterialId materialIdRef="mat_2861"/>
+		<MaterialId materialIdRef="mat_2608"/>
+		<MaterialId materialIdRef="mat_2622"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr010R1vUf6fhNidzn26wem">
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr0WAWCgFOv9DgJFMxbV_5fU">
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr2810tX1YrFuQmCvL7r_Iks">
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr1b2G81F1vAvwgNOXkH3E4N">
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr1ddD9JNEr74xnz_Q9x_j8">
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr0GWVJhXvb9299O2XS70QNE">
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr3zxVLjOo5FE9tGEb603fc">
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr1PcSGJY5vDuxI6K7By_NVa">
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr0mYkN26bz7HvNx5TuV4Zal">
+		<MaterialId materialIdRef="mat_3171"/>
+		<MaterialId materialIdRef="mat_3185"/>
+		<MaterialId materialIdRef="mat_3199"/>
+	</Layer>
+	<Layer id="lyr2c67iokyL9XfZvUs3yh3Ek">
+		<MaterialId materialIdRef="mat_3171"/>
+		<MaterialId materialIdRef="mat_3185"/>
+		<MaterialId materialIdRef="mat_3199"/>
+	</Layer>
+	<Layer id="lyr2TkmMpSw5FTAES_NQ_S0ZA">
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr2OAbv7hhD8age1Ub8mq86x">
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr3MTU713ojCGva5lfb84sTj">
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr2oiD6y3d50z8ehPeKWwCmr">
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr2OwYfiqSL5Z8o7W9DIyI70">
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr0iFTEE8Lz3ghsbMpJffrTr">
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr0lY8VoJ_nD5BqCgat9AE4i">
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr3dG8FGH1b85hkizQLthL7Y">
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr3cbbQeayTD3u_YxOOVtl9">
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr0Or89xTtT1_An_H72PxR7_">
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Layer id="lyr15SO9rOUD7jB_5UKAnhGpN">
+		<MaterialId materialIdRef="mat_2636"/>
+		<MaterialId materialIdRef="mat_2650"/>
+	</Layer>
+	<Material id="mat_2595">
+		<Name>Brick, Common</Name>
+		<Thickness unit="Meters">0.09</Thickness>
+		<R-value unit="SquareMeterKPerW">0.853732075472</R-value>
+	</Material>
+	<Material id="mat_2608">
+		<Name>Air</Name>
+		<Thickness unit="Meters">0.076</Thickness>
+		<R-value unit="SquareMeterKPerW">0.720929308176</R-value>
+	</Material>
+	<Material id="mat_2622">
+		<Name>Plywood, Sheathing</Name>
+		<Thickness unit="Meters">0.019</Thickness>
+		<R-value unit="SquareMeterKPerW">0.180232327044</R-value>
+	</Material>
+	<Material id="mat_2636">
+		<Name>Metal Stud Layer</Name>
+		<Thickness unit="Meters">0.152</Thickness>
+		<R-value unit="SquareMeterKPerW">1.44185861635</R-value>
+	</Material>
+	<Material id="mat_2650">
+		<Name>Gypsum Wall Board</Name>
+		<Thickness unit="Meters">0.013</Thickness>
+		<R-value unit="SquareMeterKPerW">0.123316855346</R-value>
+	</Material>
+	<Material id="mat_2861">
+		<Name>Concrete Masonry Units</Name>
+		<Thickness unit="Meters">0.2</Thickness>
+		<R-value unit="SquareMeterKPerW">1.89461828737</R-value>
+	</Material>
+	<Material id="mat_3171">
+		<Name>Concrete, Cast In Situ</Name>
+		<Thickness unit="Meters">0.2</Thickness>
+		<R-value unit="SquareMeterKPerW">0.0454050968865</R-value>
+	</Material>
+	<Material id="mat_3185">
+		<Name>Sand</Name>
+		<Thickness unit="Meters">0.012</Thickness>
+		<R-value unit="SquareMeterKPerW">0.00272430581319</R-value>
+	</Material>
+	<Material id="mat_3199">
+		<Name>Site - Hardcore</Name>
+		<Thickness unit="Meters">0.15</Thickness>
+		<R-value unit="SquareMeterKPerW">0.0340538226649</R-value>
+	</Material>
+	<DocumentHistory>
+		<ProgramInfo id="Revit">
+			<CompanyName>Autodesk Revit 2016 (ENU)</CompanyName>
+			<ProductName>Autodesk Revit 2016 (ENU)</ProductName>
+			<Version>2016</Version>
+		</ProgramInfo>
+		<CreatedBy date="2016-06-20T01:11:25" personId="s136146" programId="Revit"/>
+		<PersonInfo id="s136146"/>
+	</DocumentHistory>
+</gbXML>
