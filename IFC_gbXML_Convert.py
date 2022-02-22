@@ -598,6 +598,9 @@ for element in buildingElements:
             if element.PredefinedType != 'FLOOR':
                 continue
 
+        # Try and catch an Element that is just an Aggregate
+        if element.IsDecomposedBy:
+            continue
         # Refer to the relating 'IfcRelAssociatesMaterial' GUID by iterating through IFC entities
         layerId = fix_xml_layer(element.HasAssociations[0].GlobalId)
 
@@ -607,6 +610,8 @@ for element in buildingElements:
         dict_id[layerId] = layer
 
         # Specify the 'IfcMaterialLayer' entity and iterate to each 'IfcMaterial' entity
+        if not element.HasAssociations[0].RelatingMaterial.is_a('IfcMaterialLayerSetUsage'):
+            continue
         materials = element.HasAssociations[0].RelatingMaterial.ForLayerSet.MaterialLayers
         for l in materials:
             material_id = root.createElement('MaterialId')
@@ -633,6 +638,11 @@ for element in buildingElements:
             if element.PredefinedType != 'FLOOR':
                 continue
 
+        # Try and catch an Element that is just an Aggregate
+        if element.IsDecomposedBy:
+            continue
+        if not element.HasAssociations[0].RelatingMaterial.is_a('IfcMaterialLayerSetUsage'):
+            continue
         materials = element.HasAssociations[0].RelatingMaterial.ForLayerSet.MaterialLayers
 
         for l in materials:
