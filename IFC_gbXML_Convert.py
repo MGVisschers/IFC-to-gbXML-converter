@@ -241,7 +241,7 @@ for s in spaces:
 
         # Create 'SpaceBoundary' elements for the following building elements
         if element.RelatedBuildingElement.is_a('IfcCovering') or element.RelatedBuildingElement.is_a('IfcSlab') or \
-                element.RelatedBuildingElement.is_a('IfcWallStandardCase'):
+                element.RelatedBuildingElement.is_a('IfcWall'):
 
             # Exclude Roof elements, those shapes cause some malfunction
             # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
@@ -315,7 +315,7 @@ for element in boundaries:
 
     # Specify each 'Surface' element and set 'SurfaceType' attributes
     if element.RelatedBuildingElement.is_a('IfcCovering') or element.RelatedBuildingElement.is_a('IfcSlab') or element.\
-            RelatedBuildingElement.is_a('IfcWallStandardCase'):
+            RelatedBuildingElement.is_a('IfcWall'):
 
         # Exclude Roof elements, those shapes cause some malfunction
         # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
@@ -333,11 +333,11 @@ for element in boundaries:
         if element.RelatedBuildingElement.is_a('IfcSlab'):
             surface.setAttribute('surfaceType', 'InteriorFloor')
 
-        if element.RelatedBuildingElement.is_a('IfcWallStandardCase') and element.\
+        if element.RelatedBuildingElement.is_a('IfcWall') and element.\
                 InternalOrExternalBoundary == 'EXTERNAL':
             surface.setAttribute('surfaceType', 'ExteriorWall')
 
-        if element.RelatedBuildingElement.is_a('IfcWallStandardCase') and element.\
+        if element.RelatedBuildingElement.is_a('IfcWall') and element.\
                 InternalOrExternalBoundary == 'INTERNAL':
             surface.setAttribute('surfaceType', 'InteriorWall')
 
@@ -516,7 +516,7 @@ for element in boundaries:
         continue
 
     if element.RelatedBuildingElement.is_a('IfcCovering') or element.RelatedBuildingElement.is_a('IfcSlab') or element.\
-            RelatedBuildingElement.is_a('IfcWallStandardCase'):
+            RelatedBuildingElement.is_a('IfcWall'):
 
         # Exclude Roof elements, those shapes cause some malfunction
         # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
@@ -543,7 +543,7 @@ for element in boundaries:
                 if r.is_a('IfcRelDefinesByProperties'):
                     if r.RelatingPropertyDefinition.is_a('IfcPropertySet'):
                         for p in r.RelatingPropertyDefinition.HasProperties:
-                            if element.RelatedBuildingElement.is_a("IfcWallStandardCase"):
+                            if element.RelatedBuildingElement.is_a("IfcWall"):
                                 if p.Name == 'ThermalTransmittance':
                                     valueU = p.NominalValue.wrappedValue
                                     u_value.setAttribute('unit', 'WPerSquareMeterK')
@@ -590,7 +590,7 @@ for element in boundaries:
 # This new element is added as child to the earlier created 'gbXML' element
 buildingElements = ifc_file.by_type('IfcBuildingElement')
 for element in buildingElements:
-    if element.is_a('IfcWallStandardCase') or element.is_a('IfcCovering') or element.is_a('IfcSlab'):
+    if element.is_a('IfcWall') or element.is_a('IfcCovering') or element.is_a('IfcSlab'):
 
         # Exclude Roof elements, those shapes cause some malfunction
         # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
@@ -625,7 +625,7 @@ for element in buildingElements:
 listMat = []
 
 for element in buildingElements:
-    if element.is_a('IfcWallStandardCase') or element.is_a("IfcSlab") or element.is_a('IfcCovering'):
+    if element.is_a('IfcWall') or element.is_a("IfcSlab") or element.is_a('IfcCovering'):
 
         # Exclude Roof elements, those shapes cause some malfunction
         # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
