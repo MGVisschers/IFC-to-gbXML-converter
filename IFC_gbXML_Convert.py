@@ -1,19 +1,19 @@
 # Import necessary python libraries e.g. IfcOpenShell, PythonOCC and MiniDom
 import ifcopenshell.geom
-import OCC.BRep
-import OCC.TopExp
-import OCC.TopoDS
-import OCC.TopAbs
-import OCC.ProjLib
-import OCC.BRepTools
+import OCC.Core.BRep
+import OCC.Core.TopExp
+import OCC.Core.TopoDS
+import OCC.Core.TopAbs
+import OCC.Core.ProjLib
+import OCC.Core.BRepTools
 import datetime
 import time
 from xml.dom import minidom
 
 # Use IfcOpenShell and OPENCASCADE to convert implicit geometry into explicit geometry
 # Each Face consists of Wires, which consists of Edges, which has Vertices
-FACE, WIRE, EDGE, VERTEX = OCC.TopAbs.TopAbs_FACE, OCC.TopAbs.TopAbs_WIRE, OCC.TopAbs.TopAbs_EDGE, \
-                           OCC.TopAbs.TopAbs_VERTEX
+FACE, WIRE, EDGE, VERTEX = OCC.Core.TopAbs.TopAbs_FACE, OCC.Core.TopAbs.TopAbs_WIRE, OCC.Core.TopAbs.TopAbs_EDGE, \
+                           OCC.Core.TopAbs.TopAbs_VERTEX
 
 settings = ifcopenshell.geom.settings()
 settings.set(settings.USE_PYTHON_OPENCASCADE, True)
@@ -21,12 +21,12 @@ settings.set(settings.USE_PYTHON_OPENCASCADE, True)
 
 def sub(shape, ty):
     F = {
-        OCC.TopAbs.TopAbs_FACE: OCC.TopoDS.topods_Face,
-        OCC.TopAbs.TopAbs_WIRE: OCC.TopoDS.topods_Wire,
-        OCC.TopAbs.TopAbs_EDGE: OCC.TopoDS.topods_Edge,
-        OCC.TopAbs.TopAbs_VERTEX: OCC.TopoDS.topods_Vertex,
+        OCC.Core.TopAbs.TopAbs_FACE: OCC.Core.TopoDS.topods_Face,
+        OCC.Core.TopAbs.TopAbs_WIRE: OCC.Core.TopoDS.topods_Wire,
+        OCC.Core.TopAbs.TopAbs_EDGE: OCC.Core.TopoDS.topods_Edge,
+        OCC.Core.TopAbs.TopAbs_VERTEX: OCC.Core.TopoDS.topods_Vertex,
     }[ty]
-    exp = OCC.TopExp.TopExp_Explorer(shape, ty)
+    exp = OCC.Core.TopExp.TopExp_Explorer(shape, ty)
     while exp.More():
         face = F(exp.Current())
         yield face
@@ -35,12 +35,12 @@ def sub(shape, ty):
 
 def ring(wire, face):
     def vertices():
-        exp = OCC.BRepTools.BRepTools_WireExplorer(wire, face)
+        exp = OCC.Core.BRepTools.BRepTools_WireExplorer(wire, face)
         while exp.More():
             yield exp.CurrentVertex()
             exp.Next()
 
-    return list(map(lambda p: (p.X(), p.Y(), p.Z()), map(OCC.BRep.BRep_Tool.Pnt, vertices())))
+    return list(map(lambda p: (p.X(), p.Y(), p.Z()), map(OCC.Core.BRep.BRep_Tool.Pnt, vertices())))
 
 
 # Face to vertices
