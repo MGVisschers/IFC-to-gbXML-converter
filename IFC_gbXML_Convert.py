@@ -234,7 +234,7 @@ for s in spaces:
         if boundaryGeom.is_a('IfcCurveBoundedPlane') and boundaryGeom.InnerBoundaries is None:
             boundaryGeom.InnerBoundaries = ()
 
-        print boundaryGeom
+        print(boundaryGeom)
 
         # Use IfcOpenShell and OPENCASCADE to attach geometry to the specified IFC entity
         space_boundary_shape = ifcopenshell.geom.create_shape(settings, boundaryGeom)
@@ -268,7 +268,7 @@ for s in spaces:
 
             # Z-coordinates are extracted by iterating through IFC entities to the 'IfcCartesianPoint' of the
             # related 'IfcBuildingStorey'
-            print 'SpaceBoundary'
+            print('SpaceBoundary')
 
             new_z = element.RelatingSpace.ObjectPlacement.PlacementRelTo.RelativePlacement.Location.Coordinates[2]
             new_z = new_z / 1000
@@ -278,7 +278,7 @@ for s in spaces:
             for v in get_vertices(space_boundary_shape):
                 x, y, z = v
                 z = z + new_z
-                print x, y, z
+                print(x, y, z)
 
                 point = root.createElement('CartesianPoint')
 
@@ -309,7 +309,7 @@ for element in boundaries:
     if surfaceGeom.is_a('IfcCurveBoundedPlane') and surfaceGeom.InnerBoundaries is None:
         surfaceGeom.InnerBoundaries = ()
 
-    print surfaceGeom
+    print(surfaceGeom)
 
     space_boundary_shape = ifcopenshell.geom.create_shape(settings, surfaceGeom)
 
@@ -367,7 +367,7 @@ for element in boundaries:
 
         # Z-coordinates are extracted by iterating through IFC entities to the 'IfcCartesianPoint' of the
         # related 'IfcBuildingStorey'
-        print "Surface"
+        print("Surface")
 
         new_z = element.RelatingSpace.ObjectPlacement.PlacementRelTo.RelativePlacement.Location.Coordinates[2]
         new_z = new_z / 1000
@@ -377,7 +377,7 @@ for element in boundaries:
         for v in get_vertices(space_boundary_shape):
             x, y, z = v
             z = z + new_z
-            print x, y, z
+            print(x, y, z)
 
             point = root.createElement('CartesianPoint')
 
@@ -407,7 +407,7 @@ for element in boundaries:
         opening_id = opening_id + 1
 
         # If the building element is an 'IfcWindow' the gbXML element 'Opening' is added
-        print 'Opening'
+        print('Opening')
         planarGeometry = root.createElement('PlanarGeometry')
         opening.appendChild(planarGeometry)
 
@@ -427,7 +427,7 @@ for element in boundaries:
         for v in get_vertices(space_boundary_shape):
             x, y, z = v
             z = z + new_z
-            print x, y, z
+            print(x, y, z)
 
             point = root.createElement('CartesianPoint')
 
@@ -746,9 +746,9 @@ for element in personInfo:
 gbxml.appendChild(docHistory)
 
 # Create a new XML file and write all created elements to it
-xml_str = root.toprettyxml(indent="\t", encoding="UTF-8")
-
 save_path_file = "New_Exported_gbXML.xml"
 
-with open(save_path_file, "w") as f:
-    f.write(xml_str)
+root.writexml( open(save_path_file, "w"),
+               indent="  ",
+               addindent="  ",
+               newl='\n')
