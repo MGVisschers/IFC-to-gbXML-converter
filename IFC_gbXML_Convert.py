@@ -271,7 +271,7 @@ for s in spaces:
             print('SpaceBoundary')
 
             new_z = element.RelatingSpace.ObjectPlacement.PlacementRelTo.RelativePlacement.Location.Coordinates[2]
-            new_z = new_z / 1000
+            new_z = new_z
 
             polyLoop = root.createElement('PolyLoop')
 
@@ -370,7 +370,7 @@ for element in boundaries:
         print("Surface")
 
         new_z = element.RelatingSpace.ObjectPlacement.PlacementRelTo.RelativePlacement.Location.Coordinates[2]
-        new_z = new_z / 1000
+        new_z = new_z
 
         polyLoop = root.createElement('PolyLoop')
 
@@ -422,7 +422,7 @@ for element in boundaries:
         polyLoop = root.createElement('PolyLoop')
 
         new_z = element.RelatingSpace.ObjectPlacement.PlacementRelTo.RelativePlacement.Location.Coordinates[2]
-        new_z = new_z / 1000
+        new_z = new_z
 
         for v in get_vertices(space_boundary_shape):
             x, y, z = v
