@@ -39,6 +39,7 @@ def ring(wire, face):
         while exp.More():
             yield exp.CurrentVertex()
             exp.Next()
+        yield exp.CurrentVertex()
 
     return list(map(lambda p: (p.X(), p.Y(), p.Z()), map(OCC.Core.BRep.BRep_Tool.Pnt, vertices())))
 
