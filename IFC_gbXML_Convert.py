@@ -242,13 +242,7 @@ for s in spaces:
 
         # Create 'SpaceBoundary' elements for the following building elements
         if element.RelatedBuildingElement.is_a('IfcCovering') or element.RelatedBuildingElement.is_a('IfcSlab') or \
-                element.RelatedBuildingElement.is_a('IfcWall'):
-
-            # Exclude Roof elements, those shapes cause some malfunction
-            # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
-            if element.is_a('IfcSlab'):
-                if element.PredefinedType != 'FLOOR':
-                    continue
+                element.RelatedBuildingElement.is_a('IfcWall') or element.RelatedBuildingElement.is_a('IfcRoof'):
 
             spaceBoundary = root.createElement('SpaceBoundary')
             spaceBoundary.setAttribute('isSecondLevelBoundary', "true")
@@ -316,13 +310,7 @@ for element in boundaries:
 
     # Specify each 'Surface' element and set 'SurfaceType' attributes
     if element.RelatedBuildingElement.is_a('IfcCovering') or element.RelatedBuildingElement.is_a('IfcSlab') or element.\
-            RelatedBuildingElement.is_a('IfcWall'):
-
-        # Exclude Roof elements, those shapes cause some malfunction
-        # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
-        if element.is_a('IfcSlab'):
-            if element.PredefinedType != 'FLOOR':
-                continue
+            RelatedBuildingElement.is_a('IfcWall') or element.RelatedBuildingElement.is_a('IfcRoof'):
 
         surface = root.createElement('Surface')
         surface.setAttribute('id', fix_xml_id(element.GlobalId))
@@ -341,6 +329,9 @@ for element in boundaries:
         if element.RelatedBuildingElement.is_a('IfcWall') and element.\
                 InternalOrExternalBoundary == 'INTERNAL':
             surface.setAttribute('surfaceType', 'InteriorWall')
+
+        if element.RelatedBuildingElement.is_a('IfcRoof'):
+            surface.setAttribute('surfaceType', 'Roof')
 
         # Refer to the relating 'IfcRelAssociatesMaterial' GUID by iterating through IFC entities
         surface.setAttribute('constructionIdRef', fix_xml_cons(element.RelatedBuildingElement.
@@ -517,13 +508,7 @@ for element in boundaries:
         continue
 
     if element.RelatedBuildingElement.is_a('IfcCovering') or element.RelatedBuildingElement.is_a('IfcSlab') or element.\
-            RelatedBuildingElement.is_a('IfcWall'):
-
-        # Exclude Roof elements, those shapes cause some malfunction
-        # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
-        if element.is_a('IfcSlab'):
-            if element.PredefinedType != 'FLOOR':
-                continue
+            RelatedBuildingElement.is_a('IfcWall') or element.RelatedBuildingElement.is_a('IfcRoof'):
 
         # Refer to the relating 'IfcRelAssociatesMaterial' GUID by iterating through IFC entities
         constructions = element.RelatedBuildingElement.HasAssociations[0].GlobalId
@@ -591,13 +576,7 @@ for element in boundaries:
 # This new element is added as child to the earlier created 'gbXML' element
 buildingElements = ifc_file.by_type('IfcBuildingElement')
 for element in buildingElements:
-    if element.is_a('IfcWall') or element.is_a('IfcCovering') or element.is_a('IfcSlab'):
-
-        # Exclude Roof elements, those shapes cause some malfunction
-        # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
-        if element.is_a('IfcSlab'):
-            if element.PredefinedType != 'FLOOR':
-                continue
+    if element.is_a('IfcWall') or element.is_a('IfcCovering') or element.is_a('IfcSlab') or element.is_a('IfcRoof'):
 
         # Try and catch an Element that is just an Aggregate
         if element.IsDecomposedBy:
@@ -631,13 +610,7 @@ for element in buildingElements:
 listMat = []
 
 for element in buildingElements:
-    if element.is_a('IfcWall') or element.is_a("IfcSlab") or element.is_a('IfcCovering'):
-
-        # Exclude Roof elements, those shapes cause some malfunction
-        # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
-        if element.is_a('IfcSlab'):
-            if element.PredefinedType != 'FLOOR':
-                continue
+    if element.is_a('IfcWall') or element.is_a("IfcSlab") or element.is_a('IfcCovering') or element.is_a('IfcRoof'):
 
         # Try and catch an Element that is just an Aggregate
         if element.IsDecomposedBy:
