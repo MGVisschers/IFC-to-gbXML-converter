@@ -636,12 +636,24 @@ for element in buildingElements:
 
                 thickness = root.createElement('Thickness')
                 thickness.setAttribute('unit', 'Meters')
-                valueT = l.LayerThickness / 1000
+                valueT = l.LayerThickness
                 thickness.appendChild(root.createTextNode((str(valueT))))
                 material.appendChild(thickness)
 
                 rValue = root.createElement('R-value')
                 rValue.setAttribute('unit', 'SquareMeterKPerW')
+
+                # Analytical properties of the Material entity can be found directly
+                for material_property in l.Material.HasProperties:
+                    if material_property.Name == 'Pset_MaterialEnergy':
+                        for pset_material_energy in material_property.Properties:
+                            if pset_material_energy.Name == 'ThermalConductivityTemperatureDerivative':
+                                valueR = pset_material_energy.NominalValue.wrappedValue
+                                rValue.setAttribute('unit', 'SquareMeterKPerW')
+                                rValue.appendChild(root.createTextNode(str(valueR)))
+                                material.appendChild(rValue)
+
+                                gbxml.appendChild(material)
 
                 # Specify analytical properties of the 'Material' element by iterating through IFC entities
                 thermalResistance = element.IsDefinedBy
