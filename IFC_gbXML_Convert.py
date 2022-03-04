@@ -1,19 +1,19 @@
 # Import necessary python libraries e.g. IfcOpenShell, PythonOCC and MiniDom
 import ifcopenshell.geom
-import OCC.BRep
-import OCC.TopExp
-import OCC.TopoDS
-import OCC.TopAbs
-import OCC.ProjLib
-import OCC.BRepTools
+import OCC.Core.BRep
+import OCC.Core.TopExp
+import OCC.Core.TopoDS
+import OCC.Core.TopAbs
+import OCC.Core.ProjLib
+import OCC.Core.BRepTools
 import datetime
 import time
 from xml.dom import minidom
 
 # Use IfcOpenShell and OPENCASCADE to convert implicit geometry into explicit geometry
 # Each Face consists of Wires, which consists of Edges, which has Vertices
-FACE, WIRE, EDGE, VERTEX = OCC.TopAbs.TopAbs_FACE, OCC.TopAbs.TopAbs_WIRE, OCC.TopAbs.TopAbs_EDGE, \
-                           OCC.TopAbs.TopAbs_VERTEX
+FACE, WIRE, EDGE, VERTEX = OCC.Core.TopAbs.TopAbs_FACE, OCC.Core.TopAbs.TopAbs_WIRE, OCC.Core.TopAbs.TopAbs_EDGE, \
+                           OCC.Core.TopAbs.TopAbs_VERTEX
 
 settings = ifcopenshell.geom.settings()
 settings.set(settings.USE_PYTHON_OPENCASCADE, True)
@@ -21,12 +21,12 @@ settings.set(settings.USE_PYTHON_OPENCASCADE, True)
 
 def sub(shape, ty):
     F = {
-        OCC.TopAbs.TopAbs_FACE: OCC.TopoDS.topods_Face,
-        OCC.TopAbs.TopAbs_WIRE: OCC.TopoDS.topods_Wire,
-        OCC.TopAbs.TopAbs_EDGE: OCC.TopoDS.topods_Edge,
-        OCC.TopAbs.TopAbs_VERTEX: OCC.TopoDS.topods_Vertex,
+        OCC.Core.TopAbs.TopAbs_FACE: OCC.Core.TopoDS.topods_Face,
+        OCC.Core.TopAbs.TopAbs_WIRE: OCC.Core.TopoDS.topods_Wire,
+        OCC.Core.TopAbs.TopAbs_EDGE: OCC.Core.TopoDS.topods_Edge,
+        OCC.Core.TopAbs.TopAbs_VERTEX: OCC.Core.TopoDS.topods_Vertex,
     }[ty]
-    exp = OCC.TopExp.TopExp_Explorer(shape, ty)
+    exp = OCC.Core.TopExp.TopExp_Explorer(shape, ty)
     while exp.More():
         face = F(exp.Current())
         yield face
@@ -35,12 +35,13 @@ def sub(shape, ty):
 
 def ring(wire, face):
     def vertices():
-        exp = OCC.BRepTools.BRepTools_WireExplorer(wire, face)
+        exp = OCC.Core.BRepTools.BRepTools_WireExplorer(wire, face)
         while exp.More():
             yield exp.CurrentVertex()
             exp.Next()
+        yield exp.CurrentVertex()
 
-    return list(map(lambda p: (p.X(), p.Y(), p.Z()), map(OCC.BRep.BRep_Tool.Pnt, vertices())))
+    return list(map(lambda p: (p.X(), p.Y(), p.Z()), map(OCC.Core.BRep.BRep_Tool.Pnt, vertices())))
 
 
 # Face to vertices
@@ -234,20 +235,14 @@ for s in spaces:
         if boundaryGeom.is_a('IfcCurveBoundedPlane') and boundaryGeom.InnerBoundaries is None:
             boundaryGeom.InnerBoundaries = ()
 
-        print boundaryGeom
+        print(boundaryGeom)
 
         # Use IfcOpenShell and OPENCASCADE to attach geometry to the specified IFC entity
         space_boundary_shape = ifcopenshell.geom.create_shape(settings, boundaryGeom)
 
         # Create 'SpaceBoundary' elements for the following building elements
         if element.RelatedBuildingElement.is_a('IfcCovering') or element.RelatedBuildingElement.is_a('IfcSlab') or \
-                element.RelatedBuildingElement.is_a('IfcWallStandardCase'):
-
-            # Exclude Roof elements, those shapes cause some malfunction
-            # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
-            if element.is_a('IfcSlab'):
-                if element.PredefinedType != 'FLOOR':
-                    continue
+                element.RelatedBuildingElement.is_a('IfcWall') or element.RelatedBuildingElement.is_a('IfcRoof'):
 
             spaceBoundary = root.createElement('SpaceBoundary')
             spaceBoundary.setAttribute('isSecondLevelBoundary', "true")
@@ -268,17 +263,17 @@ for s in spaces:
 
             # Z-coordinates are extracted by iterating through IFC entities to the 'IfcCartesianPoint' of the
             # related 'IfcBuildingStorey'
-            print 'SpaceBoundary'
+            print('SpaceBoundary')
 
             new_z = element.RelatingSpace.ObjectPlacement.PlacementRelTo.RelativePlacement.Location.Coordinates[2]
-            new_z = new_z / 1000
+            new_z = new_z
 
             polyLoop = root.createElement('PolyLoop')
 
             for v in get_vertices(space_boundary_shape):
                 x, y, z = v
                 z = z + new_z
-                print x, y, z
+                print(x, y, z)
 
                 point = root.createElement('CartesianPoint')
 
@@ -309,19 +304,13 @@ for element in boundaries:
     if surfaceGeom.is_a('IfcCurveBoundedPlane') and surfaceGeom.InnerBoundaries is None:
         surfaceGeom.InnerBoundaries = ()
 
-    print surfaceGeom
+    print(surfaceGeom)
 
     space_boundary_shape = ifcopenshell.geom.create_shape(settings, surfaceGeom)
 
     # Specify each 'Surface' element and set 'SurfaceType' attributes
     if element.RelatedBuildingElement.is_a('IfcCovering') or element.RelatedBuildingElement.is_a('IfcSlab') or element.\
-            RelatedBuildingElement.is_a('IfcWallStandardCase'):
-
-        # Exclude Roof elements, those shapes cause some malfunction
-        # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
-        if element.is_a('IfcSlab'):
-            if element.PredefinedType != 'FLOOR':
-                continue
+            RelatedBuildingElement.is_a('IfcWall') or element.RelatedBuildingElement.is_a('IfcRoof'):
 
         surface = root.createElement('Surface')
         surface.setAttribute('id', fix_xml_id(element.GlobalId))
@@ -333,13 +322,16 @@ for element in boundaries:
         if element.RelatedBuildingElement.is_a('IfcSlab'):
             surface.setAttribute('surfaceType', 'InteriorFloor')
 
-        if element.RelatedBuildingElement.is_a('IfcWallStandardCase') and element.\
+        if element.RelatedBuildingElement.is_a('IfcWall') and element.\
                 InternalOrExternalBoundary == 'EXTERNAL':
             surface.setAttribute('surfaceType', 'ExteriorWall')
 
-        if element.RelatedBuildingElement.is_a('IfcWallStandardCase') and element.\
+        if element.RelatedBuildingElement.is_a('IfcWall') and element.\
                 InternalOrExternalBoundary == 'INTERNAL':
             surface.setAttribute('surfaceType', 'InteriorWall')
+
+        if element.RelatedBuildingElement.is_a('IfcRoof'):
+            surface.setAttribute('surfaceType', 'Roof')
 
         # Refer to the relating 'IfcRelAssociatesMaterial' GUID by iterating through IFC entities
         surface.setAttribute('constructionIdRef', fix_xml_cons(element.RelatedBuildingElement.
@@ -367,17 +359,17 @@ for element in boundaries:
 
         # Z-coordinates are extracted by iterating through IFC entities to the 'IfcCartesianPoint' of the
         # related 'IfcBuildingStorey'
-        print "Surface"
+        print("Surface")
 
         new_z = element.RelatingSpace.ObjectPlacement.PlacementRelTo.RelativePlacement.Location.Coordinates[2]
-        new_z = new_z / 1000
+        new_z = new_z
 
         polyLoop = root.createElement('PolyLoop')
 
         for v in get_vertices(space_boundary_shape):
             x, y, z = v
             z = z + new_z
-            print x, y, z
+            print(x, y, z)
 
             point = root.createElement('CartesianPoint')
 
@@ -407,7 +399,7 @@ for element in boundaries:
         opening_id = opening_id + 1
 
         # If the building element is an 'IfcWindow' the gbXML element 'Opening' is added
-        print 'Opening'
+        print('Opening')
         planarGeometry = root.createElement('PlanarGeometry')
         opening.appendChild(planarGeometry)
 
@@ -422,12 +414,12 @@ for element in boundaries:
         polyLoop = root.createElement('PolyLoop')
 
         new_z = element.RelatingSpace.ObjectPlacement.PlacementRelTo.RelativePlacement.Location.Coordinates[2]
-        new_z = new_z / 1000
+        new_z = new_z
 
         for v in get_vertices(space_boundary_shape):
             x, y, z = v
             z = z + new_z
-            print x, y, z
+            print(x, y, z)
 
             point = root.createElement('CartesianPoint')
 
@@ -516,13 +508,7 @@ for element in boundaries:
         continue
 
     if element.RelatedBuildingElement.is_a('IfcCovering') or element.RelatedBuildingElement.is_a('IfcSlab') or element.\
-            RelatedBuildingElement.is_a('IfcWallStandardCase'):
-
-        # Exclude Roof elements, those shapes cause some malfunction
-        # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
-        if element.is_a('IfcSlab'):
-            if element.PredefinedType != 'FLOOR':
-                continue
+            RelatedBuildingElement.is_a('IfcWall') or element.RelatedBuildingElement.is_a('IfcRoof'):
 
         # Refer to the relating 'IfcRelAssociatesMaterial' GUID by iterating through IFC entities
         constructions = element.RelatedBuildingElement.HasAssociations[0].GlobalId
@@ -543,7 +529,7 @@ for element in boundaries:
                 if r.is_a('IfcRelDefinesByProperties'):
                     if r.RelatingPropertyDefinition.is_a('IfcPropertySet'):
                         for p in r.RelatingPropertyDefinition.HasProperties:
-                            if element.RelatedBuildingElement.is_a("IfcWallStandardCase"):
+                            if element.RelatedBuildingElement.is_a("IfcWall"):
                                 if p.Name == 'ThermalTransmittance':
                                     valueU = p.NominalValue.wrappedValue
                                     u_value.setAttribute('unit', 'WPerSquareMeterK')
@@ -590,14 +576,11 @@ for element in boundaries:
 # This new element is added as child to the earlier created 'gbXML' element
 buildingElements = ifc_file.by_type('IfcBuildingElement')
 for element in buildingElements:
-    if element.is_a('IfcWallStandardCase') or element.is_a('IfcCovering') or element.is_a('IfcSlab'):
+    if element.is_a('IfcWall') or element.is_a('IfcCovering') or element.is_a('IfcSlab') or element.is_a('IfcRoof'):
 
-        # Exclude Roof elements, those shapes cause some malfunction
-        # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
-        if element.is_a('IfcSlab'):
-            if element.PredefinedType != 'FLOOR':
-                continue
-
+        # Try and catch an Element that is just an Aggregate
+        if element.IsDecomposedBy:
+            continue
         # Refer to the relating 'IfcRelAssociatesMaterial' GUID by iterating through IFC entities
         layerId = fix_xml_layer(element.HasAssociations[0].GlobalId)
 
@@ -607,6 +590,8 @@ for element in buildingElements:
         dict_id[layerId] = layer
 
         # Specify the 'IfcMaterialLayer' entity and iterate to each 'IfcMaterial' entity
+        if not element.HasAssociations[0].RelatingMaterial.is_a('IfcMaterialLayerSetUsage'):
+            continue
         materials = element.HasAssociations[0].RelatingMaterial.ForLayerSet.MaterialLayers
         for l in materials:
             material_id = root.createElement('MaterialId')
@@ -625,14 +610,13 @@ for element in buildingElements:
 listMat = []
 
 for element in buildingElements:
-    if element.is_a('IfcWallStandardCase') or element.is_a("IfcSlab") or element.is_a('IfcCovering'):
+    if element.is_a('IfcWall') or element.is_a("IfcSlab") or element.is_a('IfcCovering') or element.is_a('IfcRoof'):
 
-        # Exclude Roof elements, those shapes cause some malfunction
-        # Note: Roof elements have no priority(Ceilings and Floors are used to ensure water tight geometry)
-        if element.is_a('IfcSlab'):
-            if element.PredefinedType != 'FLOOR':
-                continue
-
+        # Try and catch an Element that is just an Aggregate
+        if element.IsDecomposedBy:
+            continue
+        if not element.HasAssociations[0].RelatingMaterial.is_a('IfcMaterialLayerSetUsage'):
+            continue
         materials = element.HasAssociations[0].RelatingMaterial.ForLayerSet.MaterialLayers
 
         for l in materials:
@@ -652,12 +636,24 @@ for element in buildingElements:
 
                 thickness = root.createElement('Thickness')
                 thickness.setAttribute('unit', 'Meters')
-                valueT = l.LayerThickness / 1000
+                valueT = l.LayerThickness
                 thickness.appendChild(root.createTextNode((str(valueT))))
                 material.appendChild(thickness)
 
                 rValue = root.createElement('R-value')
                 rValue.setAttribute('unit', 'SquareMeterKPerW')
+
+                # Analytical properties of the Material entity can be found directly
+                for material_property in l.Material.HasProperties:
+                    if material_property.Name == 'Pset_MaterialEnergy':
+                        for pset_material_energy in material_property.Properties:
+                            if pset_material_energy.Name == 'ThermalConductivityTemperatureDerivative':
+                                valueR = pset_material_energy.NominalValue.wrappedValue
+                                rValue.setAttribute('unit', 'SquareMeterKPerW')
+                                rValue.appendChild(root.createTextNode(str(valueR)))
+                                material.appendChild(rValue)
+
+                                gbxml.appendChild(material)
 
                 # Specify analytical properties of the 'Material' element by iterating through IFC entities
                 thermalResistance = element.IsDefinedBy
@@ -746,9 +742,9 @@ for element in personInfo:
 gbxml.appendChild(docHistory)
 
 # Create a new XML file and write all created elements to it
-xml_str = root.toprettyxml(indent="\t", encoding="UTF-8")
-
 save_path_file = "New_Exported_gbXML.xml"
 
-with open(save_path_file, "w") as f:
-    f.write(xml_str)
+root.writexml( open(save_path_file, "w"),
+               indent="  ",
+               addindent="  ",
+               newl='\n')
